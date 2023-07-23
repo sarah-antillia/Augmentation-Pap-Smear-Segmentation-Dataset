@@ -49,14 +49,14 @@ For example, severe_dysplastic folder contains image and mask files as shown bel
 <h2>
 3 Generate non-seamless images
 </h2>
-Pleasen run the following bat file.<br>
+Please run the following bat file.<br>
 <pre>
 >1.genenrator.bat
 </pre>
 
 ,which runs the following command.<br>
 <pre>
-python ImageMaskDatasetGenerator.py ./image_mask_generator.config
+>python ImageMaskDatasetGenerator.py ./image_mask_generator.config
 </pre>
 , where <b>image_mask_generator.config</b> is the following.<br>
 <pre>
@@ -122,7 +122,7 @@ Pleasen run the following bat file.<br>
 
 ,which runs the following command.<br>
 <pre>
-python ImageMaskDatasetGenerator.py ./image_mask_generator_seamless.config
+>python ImageMaskDatasetGenerator.py ./image_mask_generator_seamless.config
 </pre>
 , where <b>image_mask_generator_seamless.config</b> is the following.<br>
 <pre>
