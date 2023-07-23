@@ -181,7 +181,7 @@ Running the bat file above, Smear2005-seamless-master dataset is created.<br>
 <h2>
 5 Image Segmentation
 </h2>
-From above comaparion between non-seamless-cloned and seamless-cloned images, 
+From above comaparion between non-seamlessly-cloned and seamlessly-cloned images, 
 the latter seems to be more natural than the former for human eyes.<br>
 However, the seamless-cloning may cause some changes in pixel level in the original image by the cloning process.
 which may not be so good to improve accuracy in an image segmentation by UNET. 
