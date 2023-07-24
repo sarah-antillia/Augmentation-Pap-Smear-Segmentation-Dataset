@@ -3,6 +3,10 @@
 1 Pap-Smear dataset
 </h2>
 <p>
+This is a simple tool to augment Pap-Smear-Segmentation dataset by using two types of methods,
+<b>non-seamless cloning</b> and <b>seamless cloning</b>.<br>
+On the seamless cloning, we have used <a href="./SeamlessClone.py">SeamlessClone</a> class 
+which is written based on <a href="https://docs.opencv.org/4.x/df/da0/group__photo__clone.html">OpenCV seamlessClone API</a>.<br> 
 The image dataset used here has been taken from the following web site.
 </p>
 
