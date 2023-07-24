@@ -30,7 +30,15 @@ In case you use material from this site, please cite the current link and relate
 <h2>
 2 New database pictures
 </h2>
-The New database pictures has the following folder structure, which contains seven categories as shown below.<br>
+Please download smear2005.zip from the following link.<br>
+<b>PAP-SMEAR (DTU/HERLEV) DATABASES & RELATED STUDIES</b>
+<pre>
+https://mde-lab.aegean.gr/index.php/downloads/
+Part II : smear2005.zip [85.17 MB] New Pap-smear Database (images)
+</pre>
+Please expand <b>New database pictures.zip</b> in the downloaded smear2005.zip in your working folder.<br>
+
+The <b>New database pictures</b> has the following folder structure, which contains seven categories as shown below.<br>
 <pre>
 ./New database pictures
 ├─carcinoma_in_situ
@@ -53,8 +61,7 @@ Please run the following bat file.<br>
 <pre>
 >1.genenrator.bat
 </pre>
-
-,which runs the following command.<br>
+,which runs Python <a href="./ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a> script.<br>
 <pre>
 >python ImageMaskDatasetGenerator.py ./image_mask_generator.config
 </pre>
@@ -109,7 +116,6 @@ Running the bat file above, Smear2005-master dataset is created.<br>
 
 <b>severe_dysplastic images samples</b>:<br>
 <img src="./asset/non-seamless-augmentation-samples.png" width="1024" height="auto"><br>
-
 
 
 <h2>
